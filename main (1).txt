@@ -1,0 +1,57 @@
+#QUESTIOM NO 01:
+numbeer1=6
+number2=3
+number3=8
+
+sum=numbeer1+number2+number3   #sum
+print("sum:", sum)
+
+average=numbeer1+number2+number3   #average
+print("average:", average)
+
+difference=numbeer1-number2-number3 #difference
+print("difference:", difference)
+
+product=numbeer1*number2*number3   #product
+print("product:", product)
+
+#QUESTION NO 02:
+
+import math
+def area_rectangle(base,height):
+    return base * height
+
+def area_square(side):
+    return side ** 2
+
+def area_circle(radius):
+    return math.pi * (radius ** 2)
+def area_rectangle_lenght_wedth(length,wedth):
+    return length * wedth
+
+#example usage
+ 
+#calculate area of rectangle with base=21 and height=10 
+base=21
+height=10
+rectangle_area=area_rectangle (base,height)
+print(f"area of rectangle base={base},height={height}); {rectangle_area}") 
+
+#calculate areaa of a square with side=5
+side=5
+square_area = area_square(side)
+print(f"area of square (side={side}) {square_area}")
+ 
+#calculate area of a circle with radius=7
+radius=7
+circle_area = area_circle(radius)
+print(f"area of circle(radius={radius}): {circle_area}")
+
+#calculation area of a rectangle with loength=10 and width=5
+length=10
+width=5
+rectangle_length_width_area = (length,width)
+print(f"area of rectangle(length={length}, (width={width}): {rectangle_length_width_area}")
+
+# type: ignore
+                 
